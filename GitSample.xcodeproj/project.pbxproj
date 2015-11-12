@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9FDBC0131BF4199300A77FDA /* LoopTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDBC0121BF4199300A77FDA /* LoopTextViewController.m */; };
+		9FDBC0151BF419AF00A77FDA /* LoopText.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FDBC0141BF419AF00A77FDA /* LoopText.storyboard */; };
+		9FDC422B1BF2D05D00708877 /* CollectionViewSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDC422A1BF2D05D00708877 /* CollectionViewSampleViewController.m */; };
+		9FDC422D1BF2D07D00708877 /* CollectionViewSample.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FDC422C1BF2D07D00708877 /* CollectionViewSample.storyboard */; };
+		9FDC42321BF320EB00708877 /* LXReorderableCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDC42311BF320EB00708877 /* LXReorderableCollectionViewFlowLayout.m */; };
 		9FEE90821BF18F24002D19D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEE90811BF18F24002D19D4 /* main.m */; };
 		9FEE90851BF18F24002D19D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEE90841BF18F24002D19D4 /* AppDelegate.m */; };
 		9FEE90881BF18F24002D19D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEE90871BF18F24002D19D4 /* ViewController.m */; };
@@ -27,6 +32,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9FDBC0111BF4199300A77FDA /* LoopTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoopTextViewController.h; sourceTree = "<group>"; };
+		9FDBC0121BF4199300A77FDA /* LoopTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoopTextViewController.m; sourceTree = "<group>"; };
+		9FDBC0141BF419AF00A77FDA /* LoopText.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoopText.storyboard; sourceTree = "<group>"; };
+		9FDC42291BF2D05D00708877 /* CollectionViewSampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewSampleViewController.h; sourceTree = "<group>"; };
+		9FDC422A1BF2D05D00708877 /* CollectionViewSampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewSampleViewController.m; sourceTree = "<group>"; };
+		9FDC422C1BF2D07D00708877 /* CollectionViewSample.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CollectionViewSample.storyboard; sourceTree = "<group>"; };
+		9FDC42301BF320EB00708877 /* LXReorderableCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXReorderableCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		9FDC42311BF320EB00708877 /* LXReorderableCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXReorderableCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 		9FEE907C1BF18F24002D19D4 /* GitSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FEE90801BF18F24002D19D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FEE90811BF18F24002D19D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,6 +73,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9FDC422E1BF320E300708877 /* OpenSource */ = {
+			isa = PBXGroup;
+			children = (
+				9FDC422F1BF320EB00708877 /* LXReorderableCollectionViewFlowLayout */,
+			);
+			path = OpenSource;
+			sourceTree = "<group>";
+		};
+		9FDC422F1BF320EB00708877 /* LXReorderableCollectionViewFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				9FDC42301BF320EB00708877 /* LXReorderableCollectionViewFlowLayout.h */,
+				9FDC42311BF320EB00708877 /* LXReorderableCollectionViewFlowLayout.m */,
+			);
+			path = LXReorderableCollectionViewFlowLayout;
+			sourceTree = "<group>";
+		};
 		9FEE90731BF18F24002D19D4 = {
 			isa = PBXGroup;
 			children = (
@@ -81,11 +111,18 @@
 		9FEE907E1BF18F24002D19D4 /* GitSample */ = {
 			isa = PBXGroup;
 			children = (
+				9FDC422E1BF320E300708877 /* OpenSource */,
 				9FEE90831BF18F24002D19D4 /* AppDelegate.h */,
 				9FEE90841BF18F24002D19D4 /* AppDelegate.m */,
 				9FEE90861BF18F24002D19D4 /* ViewController.h */,
 				9FEE90871BF18F24002D19D4 /* ViewController.m */,
 				9FEE90891BF18F24002D19D4 /* Main.storyboard */,
+				9FDC42291BF2D05D00708877 /* CollectionViewSampleViewController.h */,
+				9FDC422A1BF2D05D00708877 /* CollectionViewSampleViewController.m */,
+				9FDC422C1BF2D07D00708877 /* CollectionViewSample.storyboard */,
+				9FDBC0111BF4199300A77FDA /* LoopTextViewController.h */,
+				9FDBC0121BF4199300A77FDA /* LoopTextViewController.m */,
+				9FDBC0141BF419AF00A77FDA /* LoopText.storyboard */,
 				9FEE908C1BF18F24002D19D4 /* Images.xcassets */,
 				9FEE908E1BF18F24002D19D4 /* LaunchScreen.xib */,
 				9FEE907F1BF18F24002D19D4 /* Supporting Files */,
@@ -202,6 +239,8 @@
 				9FEE908B1BF18F24002D19D4 /* Main.storyboard in Resources */,
 				9FEE90901BF18F24002D19D4 /* LaunchScreen.xib in Resources */,
 				9FEE908D1BF18F24002D19D4 /* Images.xcassets in Resources */,
+				9FDBC0151BF419AF00A77FDA /* LoopText.storyboard in Resources */,
+				9FDC422D1BF2D07D00708877 /* CollectionViewSample.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +258,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FDC42321BF320EB00708877 /* LXReorderableCollectionViewFlowLayout.m in Sources */,
+				9FDBC0131BF4199300A77FDA /* LoopTextViewController.m in Sources */,
 				9FEE90881BF18F24002D19D4 /* ViewController.m in Sources */,
 				9FEE90851BF18F24002D19D4 /* AppDelegate.m in Sources */,
 				9FEE90821BF18F24002D19D4 /* main.m in Sources */,
+				9FDC422B1BF2D05D00708877 /* CollectionViewSampleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +458,7 @@
 				9FEE90A11BF18F24002D19D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9FEE90A21BF18F24002D19D4 /* Build configuration list for PBXNativeTarget "GitSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +467,7 @@
 				9FEE90A41BF18F24002D19D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Collection View Sample View Controller-->
+        <scene sceneID="R70-wc-3gJ">
+            <objects>
+                <viewController storyboardIdentifier="CollectionViewSampleViewController" id="eao-hd-jsZ" customClass="CollectionViewSampleViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Hph-1p-vBD"/>
+                        <viewControllerLayoutGuide type="bottom" id="2e5-MU-vEl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="j4M-IP-X3v">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="L0n-Tp-bna">
+                                <rect key="frame" x="0.0" y="183" width="320" height="246"/>
+                                <color key="backgroundColor" red="0.56563527960000004" green="0.01904296875" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="246" id="c8k-km-uEr"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="50" id="Age-kT-mZH" customClass="LXReorderableCollectionViewFlowLayout">
+                                    <size key="itemSize" width="279" height="172"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="list" id="E9Y-Cx-mL4">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="279" height="172"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Qt-IF-0j0">
+                                                    <rect key="frame" x="59" y="37" width="42" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LG생활건강 스템프" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6sP-Mf-0CD">
+                                                    <rect key="frame" x="14" y="134" width="210" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4aN-No-SvF">
+                                                    <rect key="frame" x="10" y="8" width="261" height="110"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </view>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <color key="backgroundColor" red="0.95920138889999995" green="0.50193137040000002" blue="0.4236041552" alpha="1" colorSpace="calibratedRGB"/>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="eao-hd-jsZ" id="lJs-hM-I8X"/>
+                                    <outlet property="delegate" destination="eao-hd-jsZ" id="202-du-pSY"/>
+                                </connections>
+                            </collectionView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HKG-M8-Iwf">
+                                <rect key="frame" x="105" y="449" width="110" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="110" id="BEg-Vh-DpH"/>
+                                    <constraint firstAttribute="height" constant="30" id="ZU2-SM-PAi"/>
+                                </constraints>
+                                <state key="normal" title="완료">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="스탬프 발급 목록을 좌우로 이동시켜서 순서를 변경해보세요" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8xX-VY-cYJ">
+                                <rect key="frame" x="33" y="103" width="255" height="53"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="BlX-c5-aj6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="L0n-Tp-bna" firstAttribute="top" secondItem="8xX-VY-cYJ" secondAttribute="bottom" constant="27" id="6yr-Rb-exu"/>
+                            <constraint firstAttribute="centerX" secondItem="HKG-M8-Iwf" secondAttribute="centerX" id="8ws-bM-F7R"/>
+                            <constraint firstItem="HKG-M8-Iwf" firstAttribute="top" secondItem="L0n-Tp-bna" secondAttribute="bottom" constant="20" id="KaR-pN-Pcb"/>
+                            <constraint firstItem="8xX-VY-cYJ" firstAttribute="leading" secondItem="j4M-IP-X3v" secondAttribute="leading" constant="33" id="dCv-vp-Wgt"/>
+                            <constraint firstItem="L0n-Tp-bna" firstAttribute="leading" secondItem="j4M-IP-X3v" secondAttribute="leading" id="eqa-oU-VXf"/>
+                            <constraint firstItem="8xX-VY-cYJ" firstAttribute="top" secondItem="Hph-1p-vBD" secondAttribute="bottom" constant="83" id="iff-dv-xEv"/>
+                            <constraint firstAttribute="trailing" secondItem="L0n-Tp-bna" secondAttribute="trailing" id="mqb-11-n47"/>
+                            <constraint firstAttribute="trailing" secondItem="8xX-VY-cYJ" secondAttribute="trailing" constant="32" id="uSR-ST-ptQ"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fhM-2y-jJg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="372" y="466"/>
+        </scene>
+    </scenes>
+</document>

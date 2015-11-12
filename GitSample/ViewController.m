@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CollectionViewSampleViewController.h"
 
 @interface ViewController ()
 
@@ -23,5 +24,48 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+#pragma mark - UITableViewDelegate
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+
+
+    return 10;
+}
+
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+
+    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cellection View Test"];
+    
+    
+    return cell;
+}
+
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+
+
+    
+    if (indexPath.row == 0) {
+        CollectionViewSampleViewController *vc = [[UIStoryboard storyboardWithName:@"CollectionViewSample" bundle:nil] instantiateViewControllerWithIdentifier:@"CollectionViewSampleViewController"];
+        
+        [self presentViewController:vc animated:YES completion:^{}];
+    }else{
+    
+    
+    }
+    
+    
+}
+
+
+
+#pragma mark - UITableViewDataSource
+
+
+
 
 @end
