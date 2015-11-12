@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		9FDBC0131BF4199300A77FDA /* LoopTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDBC0121BF4199300A77FDA /* LoopTextViewController.m */; };
 		9FDBC0151BF419AF00A77FDA /* LoopText.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FDBC0141BF419AF00A77FDA /* LoopText.storyboard */; };
+		9FDBC0171BF41A2500A77FDA /* XNLoopBannerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FDBC0161BF41A2500A77FDA /* XNLoopBannerView.xib */; };
+		9FDBC01A1BF41A3900A77FDA /* XNLoopBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDBC0191BF41A3900A77FDA /* XNLoopBannerView.m */; };
 		9FDC422B1BF2D05D00708877 /* CollectionViewSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDC422A1BF2D05D00708877 /* CollectionViewSampleViewController.m */; };
 		9FDC422D1BF2D07D00708877 /* CollectionViewSample.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FDC422C1BF2D07D00708877 /* CollectionViewSample.storyboard */; };
 		9FDC42321BF320EB00708877 /* LXReorderableCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDC42311BF320EB00708877 /* LXReorderableCollectionViewFlowLayout.m */; };
@@ -35,6 +37,9 @@
 		9FDBC0111BF4199300A77FDA /* LoopTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoopTextViewController.h; sourceTree = "<group>"; };
 		9FDBC0121BF4199300A77FDA /* LoopTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoopTextViewController.m; sourceTree = "<group>"; };
 		9FDBC0141BF419AF00A77FDA /* LoopText.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoopText.storyboard; sourceTree = "<group>"; };
+		9FDBC0161BF41A2500A77FDA /* XNLoopBannerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XNLoopBannerView.xib; sourceTree = "<group>"; };
+		9FDBC0181BF41A3900A77FDA /* XNLoopBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNLoopBannerView.h; sourceTree = "<group>"; };
+		9FDBC0191BF41A3900A77FDA /* XNLoopBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNLoopBannerView.m; sourceTree = "<group>"; };
 		9FDC42291BF2D05D00708877 /* CollectionViewSampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewSampleViewController.h; sourceTree = "<group>"; };
 		9FDC422A1BF2D05D00708877 /* CollectionViewSampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewSampleViewController.m; sourceTree = "<group>"; };
 		9FDC422C1BF2D07D00708877 /* CollectionViewSample.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CollectionViewSample.storyboard; sourceTree = "<group>"; };
@@ -123,6 +128,9 @@
 				9FDBC0111BF4199300A77FDA /* LoopTextViewController.h */,
 				9FDBC0121BF4199300A77FDA /* LoopTextViewController.m */,
 				9FDBC0141BF419AF00A77FDA /* LoopText.storyboard */,
+				9FDBC0181BF41A3900A77FDA /* XNLoopBannerView.h */,
+				9FDBC0191BF41A3900A77FDA /* XNLoopBannerView.m */,
+				9FDBC0161BF41A2500A77FDA /* XNLoopBannerView.xib */,
 				9FEE908C1BF18F24002D19D4 /* Images.xcassets */,
 				9FEE908E1BF18F24002D19D4 /* LaunchScreen.xib */,
 				9FEE907F1BF18F24002D19D4 /* Supporting Files */,
@@ -240,6 +248,7 @@
 				9FEE90901BF18F24002D19D4 /* LaunchScreen.xib in Resources */,
 				9FEE908D1BF18F24002D19D4 /* Images.xcassets in Resources */,
 				9FDBC0151BF419AF00A77FDA /* LoopText.storyboard in Resources */,
+				9FDBC0171BF41A2500A77FDA /* XNLoopBannerView.xib in Resources */,
 				9FDC422D1BF2D07D00708877 /* CollectionViewSample.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +271,7 @@
 				9FDBC0131BF4199300A77FDA /* LoopTextViewController.m in Sources */,
 				9FEE90881BF18F24002D19D4 /* ViewController.m in Sources */,
 				9FEE90851BF18F24002D19D4 /* AppDelegate.m in Sources */,
+				9FDBC01A1BF41A3900A77FDA /* XNLoopBannerView.m in Sources */,
 				9FEE90821BF18F24002D19D4 /* main.m in Sources */,
 				9FDC422B1BF2D05D00708877 /* CollectionViewSampleViewController.m in Sources */,
 			);
