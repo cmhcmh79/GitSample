@@ -73,6 +73,7 @@
                             , (collectionView.frame.size.height - size.height)/2
                             , (collectionView.frame.size.width - size.width)/2);
 }
+
 /*
 - (void)collectionView:(UICollectionView *)collectionView itemAtIndexPath:(NSIndexPath *)fromIndexPath didMoveToIndexPath:(NSIndexPath *)toIndexPath;
 {
