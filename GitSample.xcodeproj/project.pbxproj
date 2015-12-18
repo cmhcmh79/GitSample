@@ -21,6 +21,8 @@
 		9FEE908D1BF18F24002D19D4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FEE908C1BF18F24002D19D4 /* Images.xcassets */; };
 		9FEE90901BF18F24002D19D4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FEE908E1BF18F24002D19D4 /* LaunchScreen.xib */; };
 		9FEE909C1BF18F24002D19D4 /* GitSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEE909B1BF18F24002D19D4 /* GitSampleTests.m */; };
+		9FF7935A1BFEAF3000B9292D /* PullDownReload.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FF793591BFEAF3000B9292D /* PullDownReload.storyboard */; };
+		9FF7935D1BFEAFC900B9292D /* ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF7935C1BFEAFC900B9292D /* ScrollViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,9 @@
 		9FEE90951BF18F24002D19D4 /* GitSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FEE909A1BF18F24002D19D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FEE909B1BF18F24002D19D4 /* GitSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitSampleTests.m; sourceTree = "<group>"; };
+		9FF793591BFEAF3000B9292D /* PullDownReload.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PullDownReload.storyboard; sourceTree = "<group>"; };
+		9FF7935B1BFEAFC900B9292D /* ScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewController.h; sourceTree = "<group>"; };
+		9FF7935C1BFEAFC900B9292D /* ScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +121,7 @@
 		9FEE907E1BF18F24002D19D4 /* GitSample */ = {
 			isa = PBXGroup;
 			children = (
+				9FF793581BFEAEF800B9292D /* Pull Down Reload */,
 				9FDC422E1BF320E300708877 /* OpenSource */,
 				9FEE90831BF18F24002D19D4 /* AppDelegate.h */,
 				9FEE90841BF18F24002D19D4 /* AppDelegate.m */,
@@ -162,6 +168,16 @@
 				9FEE909A1BF18F24002D19D4 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9FF793581BFEAEF800B9292D /* Pull Down Reload */ = {
+			isa = PBXGroup;
+			children = (
+				9FF793591BFEAF3000B9292D /* PullDownReload.storyboard */,
+				9FF7935B1BFEAFC900B9292D /* ScrollViewController.h */,
+				9FF7935C1BFEAFC900B9292D /* ScrollViewController.m */,
+			);
+			name = "Pull Down Reload";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +263,7 @@
 				9FEE908B1BF18F24002D19D4 /* Main.storyboard in Resources */,
 				9FEE90901BF18F24002D19D4 /* LaunchScreen.xib in Resources */,
 				9FEE908D1BF18F24002D19D4 /* Images.xcassets in Resources */,
+				9FF7935A1BFEAF3000B9292D /* PullDownReload.storyboard in Resources */,
 				9FDBC0151BF419AF00A77FDA /* LoopText.storyboard in Resources */,
 				9FDBC0171BF41A2500A77FDA /* XNLoopBannerView.xib in Resources */,
 				9FDC422D1BF2D07D00708877 /* CollectionViewSample.storyboard in Resources */,
@@ -274,6 +291,7 @@
 				9FDBC01A1BF41A3900A77FDA /* XNLoopBannerView.m in Sources */,
 				9FEE90821BF18F24002D19D4 /* main.m in Sources */,
 				9FDC422B1BF2D05D00708877 /* CollectionViewSampleViewController.m in Sources */,
+				9FF7935D1BFEAFC900B9292D /* ScrollViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
